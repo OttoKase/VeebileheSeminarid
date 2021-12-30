@@ -1,7 +1,22 @@
+body{
+	background: rgb(168,170,168);
+	background: linear-gradient(90deg, rgba(168,170,168,1) 0%, rgba(255,255,255,1) 50%, rgba(168,170,168,1) 100%);
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
 th, td, tr{
 	text-align: center;
 	border: 2px black solid;
 	padding: 5px;
+	background-color: white;
+	transition: font-size 1s, background-color 1s;
 }
 
 h1{
@@ -9,6 +24,7 @@ h1{
 	padding: 5pt;
 	border: 3px double black;
 	text-shadow: 6px 6px lightgray;
+	text-align: center;
 }
 
 p{
@@ -17,3 +33,17 @@ p{
 	text-align: center;
 	color: darkblue;
 }
+
+img{
+	border: 5px double black;
+	padding: 4px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+tr:hover td{
+	background-color: lightblue;
+	font-size: 150%;
+}
+
