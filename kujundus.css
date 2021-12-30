@@ -1,0 +1,19 @@
+th, td, tr{
+	text-align: center;
+	border: 2px black solid;
+	padding: 5px;
+}
+
+h1{
+	background-color: white;
+	padding: 5pt;
+	border: 3px double black;
+	text-shadow: 6px 6px lightgray;
+}
+
+p{
+	font-size: 115%;
+	font-family: sans-serif;
+	text-align: center;
+	color: darkblue;
+}
